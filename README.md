@@ -8,11 +8,11 @@
 
 There are two API available in the code
 
-1 - [HttpPost] /api/stock/transaltion/
+1 - **[HttpPost] /api/stock/transaltion/**
 
 ![stock transaction api](Assets/transaction-api.png)
 
-2 - [HttpGet] /api/stock/inforamtion/
+2 - **[HttpGet] /api/stock/inforamtion/**
 
 ![stock inforamtion api](Assets/information-api.png)
 
