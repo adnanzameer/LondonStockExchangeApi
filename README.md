@@ -20,3 +20,17 @@ There are two API available in the code
 Both APIs have basic security handling implemented based on Client-Id and Client-Secret in headers. Each trader has their own unique Client-Id and Client-Secret (as seen in the database schema) to ensure only authorized traders can call the API.
 
 Memory caching is implemented on top of the database layer to ensure frequent stocks and traders' information is stored in the memory for up to 3 hours to avoid database deadlock.  
+
+
+## Hosting
+
+The idea is to host the APIs on Azure API Apps. This will ensure the
+
+- Security
+- Load balancing
+- Autoscaling
+
+## Future Improvment
+
+- Beter security on APIs using OAuth e.t.c
+- Better Caching
